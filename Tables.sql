@@ -25,8 +25,15 @@ create table Products
 	Description nvarchar(1000),
 	Price decimal(16,2),
 	CategoryId int constraint Products_Categories_FK foreign key references Categories(CategoryId),
-	SizeId int constraint Products_Sizes_FK foreign key references Sizes(SizeId),
 	BrandId int constraint Products_Brands_FK foreign key references Brands(BrandId)
+);
+
+create table SizeDetails
+(
+	ProductId int constraint SizeDetails_Products_FK foreign key references Products(ProductId),
+	SizeId int constraint SizeDetails_Sizes_FK foreign key references Sizes(SizeId),
+	Count int,
+	constraint SizeDetails_PK primary key(ProductId, SizeId)
 );
 
 create table Users

@@ -1,0 +1,9 @@
+<products>
+    <product>
+        <Title>T-short</Title>
+        <Description>The best T-short</Description>
+        <Price>37</Price>
+        <CategoryId>1</CategoryId>
+        <BrandId>1</BrandId>
+    </product>
+</products>
