@@ -31,16 +31,24 @@ insert into Brands(Brand) values
 						('GAP'),
 						('Calvin Klein'),
 						('Tom Tailor'),
-						('Givenchy');
+						('Givenchy'),
+						('Champion'),
+						('Crocs'),
+						('DC'),
+						('Dior'),
+						('Diesel'),
+						('Obey'),
+						('BOSS');
 
-insert into Sizes(Size) values 
+
+insert into Categories(Category) values 
 						('Underwear'),
 						('Casual clothes'),
 						('Sports clothes'),
 						('Accessories'),
 						('Caps and Hats'),
 						('Sweaters'),
-						('Pants / Trousers'),
+						('Pants/Trousers'),
 						('Shorts'),
 						('Socks'),
 						('Coats'),
@@ -50,10 +58,31 @@ insert into Sizes(Size) values
 						('Gloves'),
 						('Footwear'),
 						('Jeans'),
-						('Polo'),
+						('Polos'),
 						('Skirt'),
 						('Sundress'),
-						('T-Shirt');
+						('T-Shirt'),
+						('Bermuda Shorts'),
+						('Business Suits'),
+						('Cardigans'),
+						('Cargo Shorts'),
+						('Leather Jacket'),
+						('Leggings'),
+						('Miniskirt'),
+						('Pajamas'),
+						('Parkas'),
+						('Rugby Shirts'),
+						('Scarfs'),
+						('Skating Dress'),
+						('Slacks'),
+						('Soccer Shirt'),
+						('Trench Coats'),
+						('Turtlenecks'),
+						('Wet Suit'),
+						('Wear a Lab Coats'),
+						('Yoga Pants'),
+						('Wedding Dress');
+
 
 insert into Sizes(Size) values 
 						('XXS'),

@@ -1,4 +1,5 @@
-[
+{
+	"products":[
 	{
 		"Title": "T-short",
 		"Description": "The best T-short",
@@ -6,4 +7,6 @@
 		"CategoryId": 1,
 		"BrandId": 1
 	}
-]
+	]
+
+}
